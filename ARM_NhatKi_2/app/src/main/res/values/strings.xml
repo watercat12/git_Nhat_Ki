@@ -1,0 +1,55 @@
+<resources>
+    <string name="app_name">Diary</string>
+
+    <!-- Material Calendar -->
+    <string name="monday">Mon</string>
+    <string name="tuesday">Tue</string>
+    <string name="wednesday">Wed</string>
+    <string name="thursday">Thu</string>
+    <string name="friday">Fri</string>
+    <string name="saturday">Sat</string>
+    <string name="sunday">Sun</string>
+    <string name="calendar_previous" translatable="false">previous</string>
+    <string name="calendar_next" translatable="false">next</string>
+    <string name="saved_event_image" translatable="false">saved event image</string>
+    <string name="write_at">Time: </string>
+    <string name="message_set_pass">Set a password</string>
+    <string name="message_set_pass_again">Confirm password</string>
+    <string name="message_enter_pass">Enter password</string>
+    <string name="add">Added</string>
+    <string name="edit">Updated</string>
+    <string name="delete">Deleted</string>
+    <string name="fail">Unsuccess</string>
+    <string name="delete_note">Delete? </string>
+    <string name="rate">Rate</string>
+    <string name="btn_rate">5 star</string>
+    <string name="share">Share</string>
+    <string name="title">Title</string>
+    <string name="write_here">Write here</string>
+    <string name="cam_xuc">How is your day?</string>
+    <string name="xoa">Delete</string>
+    <string name="enter_your_pass">Enter password</string>
+    <string name="da_doi">Saved change</string>
+    <string name="time_khoa">Lock in 10 seconds</string>
+    <string name="huong_dan">Add more diary</string>
+
+    <string name="time_line">Timeline</string>
+    <string name="entries">Entries</string>
+    <string name="list_of_entries">List of entries</string>
+
+    <string name="setting">Setting</string>
+    <string name="save">Save</string>
+    <string name="choose_icon">Choose mood icon</string>
+    <string name="add_memo">Add Moods</string>
+    <string name="nhap_ten_memo">Moods Name</string>
+    <string name="manager_memo">Manager Moods</string>
+    <string name="edit_moods">Edit moods</string>
+    <string name="change_color">Change Theme</string>
+
+    <string name="chup">Camera</string>
+    <string name="chon_tu_bo_nho">Gallery</string>
+
+    <string name="storage_permission_request_title">Allow Camera Permission</string>
+    <string name="storage_permission_request_summary"></string>
+    <string name="ok">Ok</string>
+</resources>

@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_viet_nhat_ki"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.arm2.nhatki2.VietNhatKiActivity"
+    android:orientation="vertical"
+    android:background="@drawable/background1">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:weightSum="10"
+            android:layout_alignParentTop="true"
+            android:id="@+id/lnTopEditMemo"
+            android:layout_height="40dp"
+            android:layout_marginTop="5dp"
+            android:paddingLeft="10dp">
+
+            <ImageView
+                app:srcCompat="@drawable/iconvietnhatky"
+                android:id="@+id/imageView"
+
+                android:layout_height="30dp"
+                android:layout_weight="1"
+                android:layout_width="0dp"/>
+
+            <TextView
+                android:text="TextView"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:id="@+id/txtDay"
+                android:layout_weight="8"
+                android:gravity="left|center"
+                android:textColor="@color/text_color"/>
+
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                app:srcCompat="@drawable/iconaddphoto"
+                android:id="@+id/imgChupHinh"
+                android:layout_weight="1"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/lnTopEditMemo"
+            android:background="@drawable/thanhgachngang"
+            android:id="@+id/lnGach">
+        </LinearLayout>
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:isScrollContainer="false"
+            android:layout_below="@+id/lnTopEditMemo"
+            android:layout_alignParentStart="false">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:padding="10dp"
+                android:scrollbars="none">
+
+
+
+
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:weightSum="10">
+
+                    <LinearLayout
+                        android:orientation="horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:background="@drawable/khungtieudetentrangthai"
+                        android:layout_below="@+id/lnGach"
+                        android:id="@+id/lnTitle"
+                        android:layout_weight="3">
+
+                        <EditText
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/txtEditTieuDe"
+                            android:hint="@string/title"
+                            style="@style/TextColor"
+                            android:textSize="25sp"
+                            android:paddingLeft="10dp"
+                            android:inputType="text"
+                            android:textColor="@color/text_color"
+                            android:textColorLink="?attr/colorBackgroundFloating"
+                            android:backgroundTint="@android:color/transparent"/>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:orientation="horizontal"
+                        android:layout_width="match_parent"
+                        android:id="@+id/lnCamXuc"
+                        android:layout_marginTop="10dp"
+                        android:gravity="center"
+                        android:weightSum="10"
+                        android:layout_weight="3"
+                        android:layout_height="0dp">
+
+                        <TextView
+                            android:text="@string/cam_xuc"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:id="@+id/txtEditCamXuc"
+                            style="@style/TextColor"
+                            android:textAlignment="viewStart"
+                            android:gravity="center"
+                            android:paddingLeft="10dp"
+                            android:textColor="@color/text_color"
+                            android:layout_weight="9"/>
+
+                        <ImageView
+                            android:layout_height="30dp"
+                            app:srcCompat="@drawable/iconmood"
+                            android:id="@+id/imgHinhCamXucVietNhatKi"
+                            android:layout_weight="1"
+                            android:layout_width="0dp"/>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:orientation="vertical"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/thanhgachngang">
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:orientation="horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:id="@+id/lnNoiDung"
+                        android:weightSum="10">
+
+                        <EditText
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:ems="99"
+                            android:id="@+id/txtEditNoiDung"
+                            android:hint="@string/write_here"
+                            android:inputType="textMultiLine"
+                            android:textSize="20sp"
+                            android:lineSpacingExtra="8sp"
+                            android:paddingLeft="10dp"
+                            android:backgroundTint="@android:color/transparent"
+                            android:layout_weight="9"
+                            android:textColor="@color/text_color"/>
+
+                        <ImageView
+                            android:layout_height="30dp"
+                            app:srcCompat="@drawable/icondiarynote"
+                            android:id="@+id/imageView2"
+                            android:layout_width="0dp"
+                            android:layout_weight="1"/>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:orientation="vertical"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/thanhgachngang">
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:orientation="horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:id="@+id/lnAddHinh"
+                        android:visibility="gone">
+                    </LinearLayout>
+                    <LinearLayout
+                        android:orientation="horizontal"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/list"
+                        android:layout_marginTop="10dp"
+                        android:weightSum="10"
+                        android:layout_gravity="center">
+
+                        <Button
+                            android:text="@string/save"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/btnLuu"
+                            android:layout_weight="5"
+                            android:background="@drawable/khungtieudetentrangthai"
+                            android:textColor="@color/text_color"
+                            android:textStyle="normal|bold"/>
+
+                        <Button
+                            android:text="@string/xoa"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/btnXoa"
+                            android:background="@drawable/khungtieudetentrangthai"
+                            android:layout_weight="5"
+                            android:textStyle="normal|bold"
+                            android:textColor="@color/text_color"/>
+                    </LinearLayout>
+
+
+                </LinearLayout>
+            </LinearLayout>
+
+        </ScrollView>
+
+    </RelativeLayout>
+
+
+</LinearLayout>

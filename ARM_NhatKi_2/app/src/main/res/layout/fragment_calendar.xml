@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:app="http://schemas.android.com/apk/res-auto"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              style="@style/TextViewCustomFont"
+              android:orientation="vertical">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:weightSum="10"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true">
+
+        <RelativeLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:weightSum="10">
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:background="@drawable/theme1"
+                android:id="@+id/lnBackGround"
+                android:layout_alignBottom="@+id/lnAo"
+                android:layout_alignParentTop="true">
+
+            </LinearLayout>
+
+            <ImageView
+                app:srcCompat="@drawable/iconyeuthich"
+                android:id="@+id/imgDanhGia"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_alignParentRight="true"/>
+
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                app:srcCompat="@drawable/ic_share"
+                android:id="@+id/imgShare"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="40dp"/>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_alignTop="@+id/lnLichEvent"
+                android:id="@+id/lnAo">
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:id="@+id/lnLichEvent"
+                android:layout_marginTop="150dp"
+                android:layout_height="500dp"
+                android:layout_above="@+id/lnTool">
+
+                <include layout="@layout/layout_material_calendar"
+                         android:layout_height="match_parent"
+                         android:layout_width="match_parent"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:weightSum="10"
+                android:layout_alignParentBottom="true"
+                android:id="@+id/lnTool"
+                android:layout_alignWithParentIfMissing="true"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    >
+
+                    <ImageView
+                        android:layout_height="match_parent"
+                        app:srcCompat="@drawable/timeline"
+                        android:id="@+id/imgTimeLineClick"
+                        android:layout_weight="3"
+                        android:background="#aeebff"
+                        android:layout_width="0dp"/>
+
+                    <LinearLayout
+                        android:orientation="vertical"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="0.5">
+                    </LinearLayout>
+
+                    <ImageView
+                        android:background="#aeebff"
+                        android:layout_height="match_parent"
+                        app:srcCompat="@drawable/iconpen"
+                        android:id="@+id/imgVietNhatKiNow"
+                        android:layout_weight="3"
+                        android:layout_marginLeft="2dp"
+                        android:layout_marginRight="2dp"
+                        android:layout_width="0dp"/>
+
+                    <LinearLayout
+                        android:orientation="vertical"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="0.5">
+                    </LinearLayout>
+
+                    <ImageView
+                        android:background="#aeebff"
+                        android:layout_height="match_parent"
+                        app:srcCompat="@drawable/iconsetting"
+                        android:id="@+id/imgSetting"
+                        android:layout_weight="3"
+                        android:layout_width="0dp"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_alignParentBottom="true"
+                    android:id="@+id/lnGoogle"
+                    android:layout_height="50dp"
+                    >
+
+                    <com.google.android.gms.plus.PlusOneButton
+                        xmlns:plus="http://schemas.android.com/apk/lib/com.google.android.gms.plus"
+                        android:id="@+id/plus_one_button"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="20dp"
+                        android:layout_toRightOf="@+id/btn_share_fb"
+                        plus:annotation="inline"
+                        plus:size="standard" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </RelativeLayout>
+
+
+    </RelativeLayout>
+
+
+    <!--<LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true">
+
+
+        <com.google.android.gms.plus.PlusOneButton
+            xmlns:plus="http://schemas.android.com/apk/lib/com.google.android.gms.plus"
+            android:id="@+id/plus_one_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="20dp"
+            android:layout_toRightOf="@+id/btn_share_fb"
+            plus:annotation="inline"
+            plus:size="standard" />
+    </LinearLayout>-->
+
+</RelativeLayout>

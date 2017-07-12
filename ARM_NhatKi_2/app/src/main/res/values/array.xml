@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <integer-array name="hinh_cam_xuc_array" translatable="false">
+        <item>@drawable/batluc</item>
+        <item>@drawable/bihiem</item>
+        <item>@drawable/buon</item>
+        <item>@drawable/channan</item>
+        <item>@drawable/choangvang</item>
+        <item>@drawable/daikho</item>
+        <item>@drawable/dangyeu</item>
+        <item>@drawable/daudon</item>
+        <item>@drawable/daulong</item>
+        <item>@drawable/dcyeu</item>
+        <item>@drawable/dethuong</item>
+        <item>@drawable/hailong</item>
+        <item>@drawable/haohung</item>
+        <item>@drawable/hungthu</item>
+        <item>@drawable/khochiu</item>
+        <item>@drawable/kinhngac</item>
+        <item>@drawable/kobiet</item>
+        <item>@drawable/kovui</item>
+        <item>@drawable/leuleu</item>
+        <item>@drawable/loso</item>
+        <item>@drawable/mayman</item>
+        <item>@drawable/ngacnhien</item>
+        <item>@drawable/ngau</item>
+        <item>@drawable/ngocngech</item>
+        <item>@drawable/omyeu</item>
+        <item>@drawable/tannat</item>
+        <item>@drawable/taolao</item>
+        <item>@drawable/thoaimai</item>
+        <item>@drawable/thongminh</item>
+        <item>@drawable/tucgian</item>
+        <item>@drawable/tuyetvoi</item>
+        <item>@drawable/vocam</item>
+        <item>@drawable/vuive</item>
+        <item>@drawable/xauho</item>
+        <item>@drawable/xucdong</item>
+        <item>@drawable/yeulam</item>
+
+    </integer-array>
+
+    <integer-array name="hinh_chon_background_array" translatable="false">
+        <item>@drawable/hinh1</item>
+        <item>@drawable/hinh2</item>
+        <item>@drawable/hinh3</item>
+        <item>@drawable/hinh4</item>
+        <item>@drawable/hinh5</item>
+        <item>@drawable/hinh6</item>
+        <item>@drawable/hinh7</item>
+    </integer-array>
+
+    <integer-array name="hinh_theme_array" translatable="false">
+        <item>@drawable/bg1</item>
+        <item>@drawable/bg2</item>
+        <item>@drawable/bg3</item>
+        <item>@drawable/bg4</item>
+        <item>@drawable/bg5</item>
+        <item>@drawable/bg6</item>
+        <item>@drawable/bg7</item>
+
+    </integer-array>
+    <integer-array name="hinh_background_1_array" translatable="false">
+        <item>@drawable/t1h2</item>
+        <item>@drawable/t2h2</item>
+        <item>@drawable/t3h2</item>
+        <item>@drawable/t4h2</item>
+        <item>@drawable/t5h2</item>
+        <item>@drawable/t6h2</item>
+        <item>@drawable/t7h2</item>
+
+    </integer-array>
+    <integer-array name="hinh_background_2_array" translatable="false">
+        <item>@drawable/t1h1</item>
+        <item>@drawable/t2h1</item>
+        <item>@drawable/t3h1</item>
+        <item>@drawable/t4h1</item>
+        <item>@drawable/t5h1</item>
+        <item>@drawable/t6h1</item>
+        <item>@drawable/t7h1</item>
+
+    </integer-array>
+
+
+    <integer-array name="hinh_setting_array" translatable="false">
+        <item>@drawable/lock</item>
+        <item>@drawable/font</item>
+        <item>@drawable/color</item>
+        <item>@drawable/iconmood</item>
+    </integer-array>
+
+    <string-array name="setting_array">
+        <item>Password</item>
+        <item>Change Font</item>
+        <item>Change Theme</item>
+        <item>Manage Mood</item>
+    </string-array>
+
+    <string-array name="fonts_array" translatable="false">
+        <item>Aristonne</item>
+        <item>BaseFiolexGirl</item>
+        <item>BaseFutara</item>
+        <item>BeautifulEveryTime</item>
+        <item>ComicSans</item>
+        <item>HeraBig</item>
+        <item>Kaileen_Bold</item>
+        <item>Kingthings_Petrock</item>
+        <item>RixLoveFool</item>
+        <item>Roboto</item>
+        <item>SofiaBold</item>
+        <item>Valentine</item>
+        <item>VNI-Vari</item>
+        <item>ZemkeHand</item>
+    </string-array>
+</resources>
