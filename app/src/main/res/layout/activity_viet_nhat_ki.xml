@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_viet_nhat_ki"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.arm.nhatki2.VietNhatKiActivity"
+    android:orientation="vertical"
+    android:background="@drawable/background1">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:isScrollContainer="false"
+            android:layout_marginBottom="50dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:background="@drawable/list_ds_nhat_ki"
+                android:padding="10dp"
+                android:scrollbars="none">
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/list"
+                    >
+
+                    <ImageView
+                        app:srcCompat="@drawable/iconbut"
+                        android:id="@+id/imageView"
+
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"/>
+
+                    <EditText
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/txtEditTieuDe"
+                        android:hint="@string/title"
+                        style="@style/TextColor"
+                        android:textSize="25sp"
+                        android:paddingLeft="10dp"
+                        android:inputType="text"
+                        android:textColor="@color/title"
+                        android:textColorLink="?attr/colorBackgroundFloating"
+                        android:backgroundTint="@android:color/transparent"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/list"
+                    android:layout_marginTop="10dp"
+                    >
+
+                    <ImageView
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        app:srcCompat="@drawable/icon_nhatkyganday"
+                        android:id="@+id/imageView2"
+                        />
+
+                    <EditText
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:ems="99"
+                        android:id="@+id/txtEditNoiDung"
+                        android:hint="@string/write_here"
+                        android:inputType="textMultiLine"
+                        android:textSize="20sp"
+                        android:lineSpacingExtra="8sp"
+                        style="@style/TextColor"
+                        android:paddingLeft="10dp"
+                        android:backgroundTint="@android:color/transparent"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:id="@+id/lnCamXuc"
+                    android:background="@drawable/list"
+                    android:layout_marginTop="10dp"
+                    android:gravity="center">
+
+                    <ImageView
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        app:srcCompat="@drawable/icontamtrang"
+                        android:id="@+id/imgHinhCamXucVietNhatKi"
+                        />
+
+                    <TextView
+                        android:text="@string/cam_xuc"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:id="@+id/txtEditCamXuc"
+                        style="@style/TextColor"
+                        android:textAlignment="viewStart"
+                        android:gravity="center"
+                        android:paddingLeft="10dp"
+                        android:textColor="#ffea00"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/list"
+                    android:layout_marginTop="10dp">
+
+                    <Button
+                        android:text="@string/xoa"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/btnXoa"
+                        android:background="#00ffffff"
+                        android:layout_weight="1"
+                        android:textStyle="normal|bold"/>
+                </LinearLayout>
+            </LinearLayout>
+
+        </ScrollView>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_centerVertical="false"
+            android:layout_alignParentRight="false"
+            android:layout_alignParentBottom="true"
+            android:background="#000">
+
+            <TextView
+                android:text="TextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView"/>
+        </LinearLayout>
+    </RelativeLayout>
+
+
+</LinearLayout>

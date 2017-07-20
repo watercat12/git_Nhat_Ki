@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:app="http://schemas.android.com/apk/res-auto"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:id="@+id/itemNhatKi">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:paddingLeft="30dp"
+        android:layout_height="wrap_content"
+        android:background="#FEFDE6"
+        android:paddingBottom="10dp"
+        android:paddingTop="10dp">
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            >
+
+            <ImageView
+                app:srcCompat="@drawable/iconbut"
+                android:id="@+id/imgHinhTitle"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_marginLeft="5dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/txtTitle"
+                android:gravity="center"
+                style="@style/TextColor"
+                android:textSize="25sp"
+                android:textAlignment="center"
+                android:paddingLeft="10dp"
+                android:padding="5dp"
+                android:textColor="@color/title"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="10dp"
+            android:gravity="center">
+
+            <ImageView
+                app:srcCompat="@drawable/icontamtrang"
+                android:id="@+id/imgHinhCamXuc"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_marginLeft="5dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/txtCamXuc"
+                android:gravity="center"
+                style="@style/TextColor"
+                android:textSize="15sp"
+                android:textColor="@color/cam_xuc"/>
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/txtNoiDung"
+            android:textSize="20sp"
+            android:layout_marginTop="5dp"
+            android:textColor="@color/noi_dung"/>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:srcCompat="@mipmap/ic_launcher"
+            android:id="@+id/imgHinhDinhKem"
+            android:visibility="gone"/>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="10dp"
+            >
+
+            <ImageView
+                app:srcCompat="@drawable/iconbaothuc"
+                android:id="@+id/imgHinhTime"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_gravity="center"
+                android:layout_marginLeft="5dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/txtTime"
+                android:gravity="center"
+                />
+        </LinearLayout>
+    </LinearLayout>
+
+
+
+</LinearLayout>

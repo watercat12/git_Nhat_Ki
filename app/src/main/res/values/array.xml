@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="cam_xuc_array" translatable="false">
+        <item>bất lực</item>
+        <item>bí hiểm</item>
+        <item>buồn</item>
+        <item>chán nản</item>
+        <item>choáng váng</item>
+        <item>dại khờ</item>
+        <item>đáng yêu</item>
+        <item>đau đớn</item>
+        <item>đau lòng</item>
+        <item>được yêu</item>
+        <item>dễ thương</item>
+        <item>hài lòng</item>
+        <item>hào hứng</item>
+        <item>hứng thú</item>
+        <item>khó chịu</item>
+        <item>kinh ngạc</item>
+        <item>không biết</item>
+        <item>không vui</item>
+        <item>lêu lêu</item>
+        <item>lo sợ</item>
+        <item>may mắn</item>
+        <item>ngạc nhiên</item>
+        <item>ngầu</item>
+        <item>ngốc ngếch</item>
+        <item>ốm yếu</item>
+        <item>tan nát</item>
+        <item>tào lao</item>
+        <item>thoải mái</item>
+        <item>thông minh</item>
+        <item>tức giận</item>
+        <item>tuyệt vời</item>
+        <item>vô cảm</item>
+        <item>vui vẻ</item>
+        <item>xấu hổ</item>
+        <item>xúc động</item>
+        <item>yêu lắm</item>
+
+    </string-array>
+
+    <integer-array name="hinh_cam_xuc_array" translatable="false">
+        <item>@drawable/batluc</item>
+        <item>@drawable/bihiem</item>
+        <item>@drawable/buon</item>
+        <item>@drawable/channan</item>
+        <item>@drawable/choangvang</item>
+        <item>@drawable/daikho</item>
+        <item>@drawable/dangyeu</item>
+        <item>@drawable/daudon</item>
+        <item>@drawable/daulong</item>
+        <item>@drawable/dcyeu</item>
+        <item>@drawable/dethuong</item>
+        <item>@drawable/hailong</item>
+        <item>@drawable/haohung</item>
+        <item>@drawable/hungthu</item>
+        <item>@drawable/khochiu</item>
+        <item>@drawable/kinhngac</item>
+        <item>@drawable/kobiet</item>
+        <item>@drawable/kovui</item>
+        <item>@drawable/leuleu</item>
+        <item>@drawable/loso</item>
+        <item>@drawable/mayman</item>
+        <item>@drawable/ngacnhien</item>
+        <item>@drawable/ngau</item>
+        <item>@drawable/ngocngech</item>
+        <item>@drawable/omyeu</item>
+        <item>@drawable/tannat</item>
+        <item>@drawable/taolao</item>
+        <item>@drawable/thoaimai</item>
+        <item>@drawable/thongminh</item>
+        <item>@drawable/tucgian</item>
+        <item>@drawable/tuyetvoi</item>
+        <item>@drawable/vocam</item>
+        <item>@drawable/vuive</item>
+        <item>@drawable/xauho</item>
+        <item>@drawable/xucdong</item>
+        <item>@drawable/yeulam</item>
+
+    </integer-array>
+
+    <integer-array name="hinh_chon_background_array" translatable="false">
+        <item>@drawable/b1</item>
+        <item>@drawable/b2</item>
+        <item>@drawable/b3</item>
+        <item>@drawable/b4</item>
+        <item>@drawable/b5</item>
+        <item>@drawable/b6</item>
+        <item>@drawable/b7</item>
+        <item>@drawable/b8</item>
+        <item>@drawable/b9</item>
+        <item>@drawable/b10</item>
+        <item>@drawable/b11</item>
+        <item>@drawable/b12</item>
+        <item>@drawable/b13</item>
+        <item>@drawable/background1</item>
+    </integer-array>
+
+    <integer-array name="hinh_background_array" translatable="false">
+        <item>@drawable/bg1</item>
+        <item>@drawable/bg2</item>
+        <item>@drawable/bg3</item>
+        <item>@drawable/bg4</item>
+        <item>@drawable/bg5</item>
+        <item>@drawable/bg6</item>
+        <item>@drawable/bg7</item>
+        <item>@drawable/bg8</item>
+        <item>@drawable/bg9</item>
+        <item>@drawable/bg10</item>
+        <item>@drawable/bg11</item>
+        <item>@drawable/bg12</item>
+        <item>@drawable/bg13</item>
+        <item>@drawable/background1</item>
+
+    </integer-array>
+
+    <string-array name="fonts_array" translatable="false">
+        <item>Aristonne</item>
+        <item>BaseFiolexGirl</item>
+        <item>BaseFutara</item>
+        <item>BeautifulEveryTime</item>
+        <item>ComicSans</item>
+        <item>HeraBig</item>
+        <item>Kaileen_Bold</item>
+        <item>Kingthings_Petrock</item>
+        <item>RixLoveFool</item>
+        <item>Roboto</item>
+        <item>SofiaBold</item>
+        <item>Valentine</item>
+        <item>VNI-Vari</item>
+        <item>ZemkeHand</item>
+    </string-array>
+</resources>

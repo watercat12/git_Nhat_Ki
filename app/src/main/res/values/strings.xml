@@ -1,0 +1,52 @@
+<resources>
+    <string name="app_name">Diary</string>
+
+    <!-- Material Calendar -->
+    <string name="monday">Mon</string>
+    <string name="tuesday">Tue</string>
+    <string name="wednesday">Wed</string>
+    <string name="thursday">Thu</string>
+    <string name="friday">Fri</string>
+    <string name="saturday">Sat</string>
+    <string name="sunday">Sun</string>
+    <string name="calendar_previous" translatable="false">previous</string>
+    <string name="calendar_next" translatable="false">next</string>
+    <string name="saved_event_image" translatable="false">saved event image</string>
+    <string name="write_at">Time: </string>
+    <string name="message_set_pass">Set a password</string>
+    <string name="message_set_pass_again">Confirm password</string>
+    <string name="message_enter_pass">Enter password</string>
+    <string name="add">Added</string>
+    <string name="edit">Updated</string>
+    <string name="delete">Deleted</string>
+    <string name="fail">Unsuccess</string>
+    <string name="set_pass">Set password</string>
+    <string name="edit_pass">Edit password</string>
+    <string name="delete_note">Delete? </string>
+    <string name="text_add">Click here to write! </string>
+    <string name="gan_day">Recent</string>
+    <string name="rate">Rate</string>
+    <string name="btn_rate">5 star</string>
+    <string name="have_nhat_ki">Day with diary</string>
+    <string name="share">Share</string>
+    <string name="title">Title</string>
+    <string name="write_here">Write here</string>
+    <string name="cam_xuc">How is your day?</string>
+    <string name="xoa">Delete</string>
+    <string name="enter_your_pass">Enter password</string>
+    <string name="da_doi">Saved change</string>
+    <string name="time_khoa">Lock in 10 seconds</string>
+    <string name="huong_dan">Add more diary</string>
+
+    <string name="dialog_xoa_pass">Sau 24 tiếng pass sẽ được khôi phục</string>
+    <string name="dialog_xoa_pass_al">Bạn đã yêu cầu xóa mật khẩu, mật khẩu sẽ xóa sau 24 tiếng</string>
+    <string name="xoa_pass">Xóa mật khẩu</string>
+    <string name="upload">Sao lưu dữ liệu</string>
+    <string name="Download">Cập nhật dữ liệu của bạn</string>
+
+    <string name="null_nhat_ki">Hôm nay không có gì mới à</string>
+    <string name="click">Bấm vô để viêt luôn</string>
+    <string name="backup">Đã sao lưu</string>
+    <string name="khoi_phuc">Xin hãy khởi động lại</string>
+    <string name="file_not_found">Không thấy file</string>
+</resources>
